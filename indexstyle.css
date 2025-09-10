@@ -34,9 +34,8 @@ nav{
 main {
     grid-area: main;
     background-color: lightgrey;
-
-    
     text-align: center;
+    padding: 10px;
 }
 footer {
     grid-area: footer;
@@ -91,5 +90,15 @@ li a:hover {
 #nav a{
     font-size: 100%;
 }
-
-
+#Main-Titel{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#pictures{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#Linkimg{
+    max-height: 200px;
+}
