@@ -1,0 +1,70 @@
+#container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: "header header"
+                         "nav    main"
+                         "footer footer";
+    gap: 10px;
+    min-height: 100vh;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(95, 95, 95);
+}
+nav {
+    grid-area: nav;
+    background-color: rgb(95, 95, 95);
+    font-family: sans-serif;
+}
+main {
+    grid-area: main;
+    background-color: lightgrey;
+
+    font-family: "tiny5", sans-serif;
+    text-align: center;
+}
+footer {
+    grid-area: footer;
+    background-color: lightgrey;
+}
+img {
+    height: 80px;
+    margin: 10px;
+}
+img:active {
+    height: 20px;
+    margin: 10px;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.GameBoyTitle{
+border: 2px solid black;   
+    padding: 15px;             
+    margin: 20px 0;           
+    border-radius: 8px;        
+    background-color: #f9f9f9; 
+}
+
+.GameBoyscreenText{
+    border: 2px solid black;   
+    padding: 15px;             
+    margin: 20px 0;           
+    border-radius: 8px;        
+    background-color: rgba(0, 128, 0, 0.404); 
+}
