@@ -56,6 +56,9 @@ footer {
 }
 h1 {
     font-family: "tiny5", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+
 }
 li {
     list-style: none;
