@@ -1,12 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 #container {
     display: grid;
     width: 100%;
     grid-template-columns: 200px auto;
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 150px auto 100px;
     grid-template-areas: "header header"
                          "nav    main"
                          "footer footer";
-    gap: 10px;
+    
     min-height: 100vh;
 }
 
@@ -22,18 +26,27 @@ main {
     grid-area: main;
     background-color: lightgrey;
 
-    font-family: "tiny5", sans-serif;
+    
     text-align: center;
 }
 footer {
     grid-area: footer;
     background-color: lightcoral;
 }
-img {
-    height: 80px;
-    margin: 10px;
+.element {
+    border: 2px solid black;
+    padding: px;
+    box-shadow: 5px 5px 5px grey;
 }
-img:active {
-    height: 20px;
-    margin: 10px;
+#title {
+    text-align: right;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#Logo {
+    height: 150px;
+    display: inline-block;
+}
+h1 {
+    font-family: "tiny5", sans-serif;
 }
