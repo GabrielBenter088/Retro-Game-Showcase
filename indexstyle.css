@@ -1,0 +1,39 @@
+#container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: "header header"
+                         "nav    main"
+                         "footer footer";
+    gap: 10px;
+    min-height: 100vh;
+}
+
+header {
+    grid-area: header;
+    background-color: lightblue;
+}
+nav {
+    grid-area: nav;
+    background-color: lightgreen;
+}
+main {
+    grid-area: main;
+    background-color: lightgrey;
+
+    font-family: "tiny5", sans-serif;
+    text-align: center;
+}
+footer {
+    grid-area: footer;
+    background-color: lightcoral;
+}
+img {
+    height: 80px;
+    margin: 10px;
+}
+img:active {
+    height: 20px;
+    margin: 10px;
+}
