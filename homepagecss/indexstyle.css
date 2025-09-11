@@ -28,17 +28,22 @@ header {
     background-color: #0d0d0d;
     border-bottom: 3px solid #333;
     display: flex;
+    padding: 0px !important;
+    justify-content: space-between;
+    align-content: center;
 }
 /* Logo */
 #Logo {
     display: inline-block;
     max-width: 100px;
+    margin-top: 0px;
+    margin-left: 50px;
 }
 #title {
     display: inline-block;
     text-transform: uppercase; 
     font-size: 100px;
-    text-align: right;
+
 }
 /* Navigation */
 nav {
