@@ -212,6 +212,29 @@ main p {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
 }
+/* Footer */
+#footer {
+    grid-area: footer;
+    background-color: #222;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 3px solid #333;
+    padding: 0cm;
+    color: #ffaa00;
+    text-decoration: none;
+}
+.footerinhalt {
+    color: #ffaa00;
+    text-decoration: none;
+    margin: 0;
+    font-weight: normal;
+}
+a.footerinhalt:hover{
+    text-decoration: underline;
+}
 
 @media (max-width: 1200px) {
   .container {
