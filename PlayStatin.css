@@ -69,7 +69,7 @@ main p {
 }
 
 /* Buttons */
-a.buttonSM64, a.buttonZelda, a.buttonMK64 {
+a.buttonFinalFantasy, a.buttonGT, a.buttonTekken3 {
     display: inline-block;
     padding: 10px 20px;
     margin-bottom: 20px;
@@ -80,9 +80,9 @@ a.buttonSM64, a.buttonZelda, a.buttonMK64 {
     transition: background 0.3s, transform 0.2s;
 }
 
-a.buttonSM64:hover,
-a.buttonZelda:hover,
-a.buttonMK64:hover {
+a.buttonFinalFantasy:hover,
+a.buttonGT:hover,
+a.buttonTekken3:hover {
     background-color: #ffaa00;
     transform: scale(1.05);
 }
