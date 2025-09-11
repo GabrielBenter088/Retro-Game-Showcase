@@ -199,34 +199,20 @@ img:hover {
 
 #pictures{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.img-container{
-    position: relative; /* Erforderlich für die Positionierung des Overlays */
-    display: inline-block;
-}
-.img-container img {
-    display: block;
-    max-height: 200px;
-}
-.overlaytext{
-    position: absolute; /* Positioniert den Text über dem Bild */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Hintergrundfarbe der Überlagerung */
-    color: black; /* Textfarbe */
-    display: flex; /* Zentriert den Text im Container */
     justify-content: center;
-    align-items: center;
-    opacity: 0; /* Zunächst unsichtbar */
-    transition: opacity 0.3s ease; /* Fügt eine sanfte Überblendung hinzu */
-    pointer-events: none; /* Ermöglicht Klicks unter der Überlagerung, falls gewünscht */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
-.image-container:hover .overlay-text {
-  opacity: 1; /* Macht den Text beim Hovern sichtbar */
+
+.linkimgtxt{
+    position: relative;
+    margin: 0;
+
 }
+.Linkimg{
+    
+}
+
 
 #footer {
     grid-area: footer;
