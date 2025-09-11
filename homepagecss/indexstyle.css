@@ -80,7 +80,6 @@ main {
 }
 footer {
     grid-area: footer;
-    background-color: lightcoral;
 }
 .element {
     border: 2px solid black;
@@ -222,6 +221,10 @@ img:hover {
     border-top: 3px solid #333;
     padding: 0cm;
     color: #ffaa00;
+    text-decoration: none;
+}
+
+a:hover{
     text-decoration: none;
 }
 .footerinhalt {

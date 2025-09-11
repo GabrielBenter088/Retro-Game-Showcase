@@ -235,12 +235,16 @@ main p {
     color: #ffaa00;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
 .footerinhalt {
     color: #ffaa00;
+    font-family: "tiny5", sans-serif;
     text-decoration: none;
     margin: 0;
-    font-weight: normal;
 }
+
 a.footerinhalt:hover{
     text-decoration: underline;
 }
