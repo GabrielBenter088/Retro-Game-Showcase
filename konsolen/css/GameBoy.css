@@ -161,7 +161,7 @@ footer {
 }
 
 /* Buttons */
-.buttonPokemon, .buttonTetris, .buttonMario {
+a.buttonPokemon, a.buttonTetris, a.buttonMario {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px 0;
@@ -172,9 +172,9 @@ footer {
     text-decoration: none;
 }
 
-.buttonTetris:hover,
-.buttonPokemon:hover,
-.buttonMario:hover {
-    color: #ffaa00;
+a.buttonTetris:hover,
+a.buttonPokemon:hover,
+a.buttonMario:hover {
+    background-color: #ffaa00;
     transform: scale(1.05);
 }

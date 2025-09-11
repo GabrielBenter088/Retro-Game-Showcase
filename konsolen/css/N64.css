@@ -116,7 +116,7 @@ a.buttonSM64, a.buttonZelda, a.buttonMK64 {
 a.buttonSM64:hover,
 a.buttonZelda:hover,
 a.buttonMK64:hover {
-    color: #ffaa00;
+    background-color: #ffaa00;
     transform: scale(1.05);
 }
 
