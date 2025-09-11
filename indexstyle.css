@@ -12,7 +12,7 @@ body {
     display: grid;
     width: 100%;
     grid-template-columns: 200px auto;
-    grid-template-rows: 150px auto 100px;
+    grid-template-rows: 200px auto 100px;
     grid-template-areas: 
         "header header"
         "nav main"
@@ -25,18 +25,24 @@ body {
 header {
     grid-area: header;
     background-color: #0d0d0d;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
     border-bottom: 3px solid #333;
+    display: flex;
+     
 }
 
 /* Logo */
 #Logo {
     height: 120px;
+    display: inline-block;
+    max-width: 100px;
 }
-
+#title {
+    display: inline-block;
+    text-transform: uppercase; 
+    font-size: 100px;
+    margin: 20px;
+    text-align: end;
+}
 /* Navigation */
 nav {
     grid-area: nav;
@@ -53,6 +59,7 @@ nav a {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s, background 0.3s;
+    transition: color 0.3s, 
 }
 
 nav a:hover {
@@ -68,6 +75,16 @@ main {
     background-color: #1a1a1a;
     text-align: center;
     padding: 30px;
+}
+footer {
+    grid-area: footer;
+    background-color: lightcoral;
+}
+.element {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px grey;
+}
+h1 {
     font-family: "tiny5", sans-serif;
 }
 
@@ -120,7 +137,6 @@ footer {
 /* Kästen für Spiele und Inhalte */
 .element, .GameTitle {
     border: 2px solid #333;
-    padding: 20px;
     margin: 25px 0;
     border-radius: 12px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
