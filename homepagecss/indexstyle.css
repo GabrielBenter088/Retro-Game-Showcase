@@ -15,7 +15,7 @@ body {
     grid-template-rows: 150px auto 100px;
     grid-template-areas: 
         "header header"
-        "nav main"
+        "nav    main"
         "footer footer";
     min-height: 100vh;
     gap: 15px;
@@ -38,8 +38,7 @@ header {
     display: inline-block;
     text-transform: uppercase; 
     font-size: 100px;
-    margin: 20px;
-    text-align: end;
+    text-align: right;
 }
 /* Navigation */
 nav {
@@ -86,10 +85,9 @@ footer {
 #title {
     text-transform: uppercase; 
     font-size: 100px;
+    margin: 0px
 }
 h1 {
-
-
     font-family: "tiny5", sans-serif;
 }
 
