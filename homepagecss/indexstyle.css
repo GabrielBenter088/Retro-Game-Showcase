@@ -130,6 +130,11 @@ li a:hover {
     padding: 4px;
 }
 
+.Consoles{
+    margin: 0;
+    margin-top: 15px;
+}
+
 
 
 /* Kästen für Spiele und Inhalte */
@@ -194,7 +199,6 @@ img:hover {
 }
 
 
-/* Footer */
 #footer {
     grid-area: footer;
     background-color: #222;
