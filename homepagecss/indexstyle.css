@@ -225,6 +225,7 @@ img:hover {
 }
 .footerinhalt {
     color: #ffaa00;
+    font-family: "tiny5", sans-serif;
     text-decoration: none;
     margin: 0;
 }
