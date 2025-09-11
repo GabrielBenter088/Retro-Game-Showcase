@@ -62,7 +62,7 @@ nav a:hover {
 }
 /* Listen */
 ul {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 li {
     list-style: none;
@@ -92,7 +92,9 @@ details{
     margin-bottom: 30px;
 }
 summary{
-    font-family: "tiny5", sans-serif;
+  font-family: "tiny5", sans-serif;
+  color: #ffcc00;
+
 }
 /* Main Content */
 main {
@@ -170,11 +172,7 @@ img:hover {
   margin: 0px auto;
 }
 
-.element {
-  background-color: orange;
-  text-align: center;
-  padding-top: 20px;
-}
+
 
 #item1 {
   grid-column: 1 / span 2;

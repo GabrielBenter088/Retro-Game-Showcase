@@ -28,7 +28,6 @@ header {
     padding: 0 20px;
     font-size: 1.5rem;
     font-weight: bold;
-    border-bottom: 3px solid #333;
 }
 #logo{
     display: inline-block;
@@ -65,7 +64,7 @@ nav a:hover {
 }
 /* Listen */
 ul {
-    padding-left: 15px;
+    padding-left: 0px;
 }
 li {
     list-style: none;
