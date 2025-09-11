@@ -142,6 +142,9 @@ li a:hover {
 details{
     margin-bottom: 30px;
 }
+summary{
+    font-family: "tiny5", sans-serif;
+}
 
 
 
