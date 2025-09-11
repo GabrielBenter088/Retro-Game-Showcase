@@ -1,0 +1,40 @@
+Datenschutzerklärung
+
+Wir freuen uns über Ihr Interesse an unserer Website. Der Schutz Ihrer personenbezogenen Daten ist uns ein wichtiges Anliegen.
+
+1. Verantwortliche Stelle
+Gabriel Benter & Ilian Burri
+ICT Berufsbildung Basislehrjahr
+Am Mattenhof 8
+6010 Kriens
+E-Mail: info@ict-bz.ch
+
+2. Erhebung und Speicherung personenbezogener Daten
+Beim Besuch unserer Website werden keine personenbezogenen Daten aktiv erhoben (kein Kontaktformular, kein Newsletter, kein Tracking).
+
+3. Server-Logfiles
+Beim Aufruf unserer Website können durch den Hosting-Provider automatisch Informationen in sogenannten Server-Logfiles gespeichert werden (z. B. IP-Adresse, Browsertyp, Betriebssystem, Zeitpunkt des Zugriffs). Diese Daten dienen ausschließlich der Sicherstellung des Betriebs und der technischen Sicherheit und werden nicht mit anderen Datenquellen zusammengeführt.
+
+4. Verwendung von Google Fonts
+Diese Website verwendet externe Schriften von Google Fonts. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Fonts von den Servern von Google, wodurch Ihre IP-Adresse an Google (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) übertragen werden kann. Weitere Informationen finden Sie in der Datenschutzerklärung von Google: https://policies.google.com/privacy
+.
+
+5. Ihre Rechte (nach DSG & DSGVO)
+Sie haben das Recht auf:
+
+Auskunft über die von uns verarbeiteten personenbezogenen Daten,
+
+Berichtigung unrichtiger Daten,
+
+Löschung Ihrer Daten, sofern keine gesetzlichen Aufbewahrungspflichten bestehen,
+
+Einschränkung der Verarbeitung,
+
+Widerspruch gegen die Verarbeitung,
+
+(für EU-Bürger) Datenübertragbarkeit.
+
+Anfragen richten Sie bitte an die oben genannte Kontaktadresse.
+
+6. Speicherung
+Personenbezogene Daten speichern wir nur so lange, wie es zur Erfüllung des jeweiligen Zwecks erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen.
