@@ -61,9 +61,13 @@ nav a:hover {
     padding: 4px;
 }
 /* Listen */
+ul {
+    padding-left: 15px;
+}
 li {
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
+    margin-top: 5px;
     margin-bottom: 15px;
 }
 
@@ -77,9 +81,19 @@ li a:hover {
     background-color: #222;
     border-radius: 5px;
     padding: 4px;
-    text-decoration: none;
 }
 
+.Consoles{
+    font-size: 25px;
+    margin: 0;
+    margin-top: 15px;
+}
+details{
+    margin-bottom: 30px;
+}
+summary{
+    font-family: "tiny5", sans-serif;
+}
 /* Main Content */
 main {
     grid-area: main;
