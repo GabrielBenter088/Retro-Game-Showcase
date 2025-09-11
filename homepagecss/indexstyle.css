@@ -213,3 +213,6 @@ img:hover {
     text-decoration: none;
     margin: 0;
 }
+a.footerinhalt:hover{
+    text-decoration: underline;
+}
