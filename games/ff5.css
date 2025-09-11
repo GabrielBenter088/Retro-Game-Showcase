@@ -1,3 +1,8 @@
+body{
+    font-family: Arial, sans-serif; 
+    margin: 0;
+}
+
 /* Grid-Layout */
 #container {
     display: grid;
@@ -26,11 +31,17 @@ header {
     border-bottom: 3px solid #333;
 }
 
+#logo{
+    display: inline-block;
+    max-width: 90px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
 /* Navigation */
 nav {
     grid-area: nav;
     background-color: #111;
-    font-family: sans-serif;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -39,14 +50,37 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #ffaa00;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s;
+    transition: color 0.3s, 
+
 }
 
 nav a:hover {
     color: #ffcc00;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 4px;
+}
+/* Listen */
+li {
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #ffcc00;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
 }
 
 /* Main Content */
