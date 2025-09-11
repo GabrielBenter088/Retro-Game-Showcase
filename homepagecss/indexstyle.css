@@ -15,28 +15,31 @@ body {
     grid-template-rows: 150px auto 100px;
     grid-template-areas: 
         "header header"
-        "nav main"
+        "nav    main"
         "footer footer";
     min-height: 100vh;
     gap: 15px;
 }
 
 /* Header */
+/* Header */
 header {
     grid-area: header;
     background-color: #0d0d0d;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
     border-bottom: 3px solid #333;
+    display: flex;
 }
-
 /* Logo */
 #Logo {
-    height: auto;
+    display: inline-block;
+    max-width: 100px;
 }
-
+#title {
+    display: inline-block;
+    text-transform: uppercase; 
+    font-size: 100px;
+    text-align: right;
+}
 /* Navigation */
 nav {
     grid-area: nav;
@@ -82,14 +85,9 @@ footer {
 #title {
     text-transform: uppercase; 
     font-size: 100px;
-}
-#Logo {
-    
-    width: auto;
+    margin: 0px
 }
 h1 {
-
-
     font-family: "tiny5", sans-serif;
 }
 
