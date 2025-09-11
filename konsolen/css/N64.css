@@ -134,11 +134,12 @@ footer {
 
 /* Images */
 img {
-    max-width: 100%;
+    max-width: 150px;
     height: auto;
     margin: 15px 10px;
     border-radius: 8px;
     transition: transform 0.3s;
+    
 }
 
 img:hover {
