@@ -162,6 +162,18 @@ summary{
     box-shadow: 4px 6px 12px rgba(0,0,0,0.5);
 }
 
+#Emulatoren{
+    font-size: 25px;
+    margin: 0;
+    margin-top: 15px;
+    color: #ffaa00;
+    text-decoration: none;
+    
+}
+#Emulatoren:hover{
+    text-decoration: underline;
+}
+
 /* Bilder */
 img {
     max-width: 300px;
