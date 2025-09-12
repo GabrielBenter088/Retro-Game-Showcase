@@ -43,7 +43,7 @@ header {
     display: inline-block;
     text-transform: uppercase; 
     font-size: 100px;
-    margin: 0px auto;
+    margin: auto auto;
 }
 /* Navigation */
 nav {
@@ -164,7 +164,7 @@ summary{
 
 /* Bilder */
 img {
-    width: 300px;
+    max-width: 300px;
     height: auto;
     margin: 15px;
     border-radius: 8px;
@@ -220,9 +220,15 @@ a.footerinhalt:hover{
     text-decoration: underline;
 }
 @media (max-width: 1270px) {
+
     #pictures{
         grid-template-columns: auto;
         grid-template-rows: repeat(3, 1fr);
+    }
+}
+@media (max-width: 1200px) {
+    #title{
+        font-size: 70px;
     }
 }
 @media (max-width: 680px) {
@@ -230,28 +236,76 @@ a.footerinhalt:hover{
         font-size: 50px;
     }
 }
-@media (max-width: 550px) {
+@media (max-width: 610px) {
     #title{
     font-size: 40px;
   }
-}
-@media (max-width: 460px) {
-  .container {
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 200px);
+    #container {
+    grid-template-columns: 150px auto;
+    grid-template-rows: 150px auto 150px;
   }
-  #title{
-    font-size: 30px;
-  }
-  nav a{
+    #nav a{
     font-size: 20px;
   }
-  nav {
-    max-width: 100px;
+    #nav{
+    padding: 10px
   }
-  #item1 {
-    grid-column: 1;
-    grid-row: 1;
+}
+@media (max-width: 560px) {
+    #container {
+    grid-template-columns: 120px auto;
+    grid-template-rows: 150px auto 150px;
   }
+    #pictures{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+    }
+    .Linkimg{
+        margin: 0;
+        max-width: auto;
+        max-height: auto;
+        width: auto;
+    }
+    #nav a{
+    font-size: 15px;
+  }
+    #nav{
+    padding: 10px
+  }
+
+  #title{
+    font-size: 40px;
+  }
+  
+}
+@media (max-width:500px) {
+    #container {
+    grid-template-columns: 100px auto;
+    grid-template-rows: 150px auto 150px;
+  }
+    #pictures{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+    }
+    .Linkimg{
+        margin: 0;
+        width: auto;
+    }
+    .linkimgtxt{
+        font-size: 12px;
+    }
+    #nav a, #nav summary{
+    font-size: 17px;
+  }
+    #nav{
+    padding: 5px
+  }
+  #nav > ul {
+    padding: 0;
+  }
+
+  #title{
+    font-size: 40px;
+  }
+  
 }
