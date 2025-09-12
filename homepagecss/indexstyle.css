@@ -235,8 +235,9 @@ a.footerinhalt:hover{
 }
 @media (max-width: 680px) {
     #title{
-        font-size: 50px;
+        font-size: 60px;
     }
+
         #container{
         grid-template-columns: auto;
         grid-template-rows: 150px auto auto 150px;
@@ -248,8 +249,21 @@ a.footerinhalt:hover{
     header{
         grid-area: header;
     }
+    #Logo{
+        margin-left: 20px;
+    }
+    #title{
+        font-size: 50px;
+    }
     nav {
         grid-area: nav;
+    }
+    #nav li{
+        font-size: 35px;
+
+    }
+    #nav summary{
+        font-size: 30px;
     }
     main{
         grid-area: main;
@@ -258,40 +272,5 @@ a.footerinhalt:hover{
         grid-area: footer;
     }
 }
-@media (max-width: 610px) {
-    
-}
-@media (max-width: 560px) {
 
-}
-@media (max-width:500px) {
-    #container {
-    grid-template-columns: 100px auto;
-    grid-template-rows: 150px auto 150px;
-  }
-    #pictures{
-    grid-template-columns: auto;
-    grid-template-rows: repeat(3, 1fr);
-    }
-    .Linkimg{
-        margin: 0;
-        width: auto;
-    }
-    .linkimgtxt{
-        font-size: 12px;
-    }
-    #nav a, #nav summary{
-    font-size: 17px;
-  }
-    #nav{
-    padding: 5px
-  }
-  #nav > ul {
-    padding: 0;
-  }
 
-  #title{
-    font-size: 40px;
-  }
-  
-}
