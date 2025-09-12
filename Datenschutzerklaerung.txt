@@ -37,7 +37,7 @@ Unsere Website nutzt externe Schriftarten von Google Fonts. Beim Aufruf einer Se
 
 
 5. Nutzung von Retro-Games
-Unsere Website verwendet die Plattform https://www.retrogames.onl/
+Unsere Website verwendet die Plattform https://classicgamezone.com/
 , um Retro-Spiele bereitzustellen. Beim Zugriff auf diese Spiele kann es vorkommen, dass Daten wie Ihre IP-Adresse oder Geräteinformationen an die Betreiber dieser Plattform übertragen werden. Bitte beachten Sie hierzu auch die Datenschutzerklärung von RetroGames.onl.
 
 
