@@ -43,7 +43,9 @@ header {
     margin: 0px auto;
     color: #ffcc00;
     font-family: "Tiny5";
+    text-align: center;
 }
+
 /* Navigation */
 nav {
     grid-area: nav;
