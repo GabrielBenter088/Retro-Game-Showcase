@@ -168,7 +168,8 @@ summary{
     margin-top: 15px;
     color: #ffaa00;
     text-decoration: none;
-    
+    display: inline-block;
+    font-family: "tiny5", sans-serif;;
 }
 #Emulatoren:hover{
     text-decoration: underline;
