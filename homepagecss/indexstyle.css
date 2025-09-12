@@ -175,24 +175,6 @@ img:hover {
     transform: scale(1.05);
 }
 
-/* Buttons */
-.buttonTetris, .buttonZelda, .buttonMK64 {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px 0;
-    background-color: #ffcc00;
-    color: #000;
-    border-radius: 8px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.buttonTetris:hover,
-.buttonZelda:hover,
-.buttonMK64:hover {
-    background-color: #ffaa00;
-    transform: scale(1.05);
-}
 #nav a{
     font-size: 100%;
 }
@@ -209,7 +191,6 @@ img:hover {
     margin: 0;
 
 }
-
 
 
 #footer {
