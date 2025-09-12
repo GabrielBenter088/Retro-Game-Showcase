@@ -234,6 +234,9 @@ a:hover{
 a.footerinhalt:hover{
     text-decoration: underline;
 }
+
+
+
 @media (max-width: 1270px) {
 
 
@@ -289,3 +292,6 @@ a.footerinhalt:hover{
 }
 
 
+.contact{
+    margin-top: 100px;  
+}
