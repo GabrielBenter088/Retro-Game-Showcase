@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GameBoy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="zeldaoot.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg" type="image/x-icon">
+    <title>Kontakformular</title>
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <a href="../index.html"><img id="logo"  src="../homepageimages/logo klein.png" alt="Logo"></a>
+            <h1 id="title">Retro-Games</h1>
+        </header>
+
+        <nav id="nav" class="element">
+                <ul>
+                    
+                    <li class="Consoles"><a href="../konsolen/html/GameBoy.html">GameBoy</a></li>
+                    <details>
+                    <summary>Games</summary>
+                        <ul>
+                            <li><a href="tetris.html">Tetris</a></li>
+                            <li><a href="pokemon.html">Pokémon</a></li>
+                            <li><a href="supermarioland.html">Super Mario Land</a></li>
+                        </ul>
+                    </details>
+
+                    <li class="Consoles"><a href="../konsolen/html/PlayStation.html">PlayStation</a></li>
+                    <details>
+                    <summary>Games</summary>
+                        <ul>
+                            <li><a href="ff7.html">Final Fantasy VII</a></li>
+                            <li><a href="gt.html">Gran Turismo</a></li>
+                            <li><a href="tekken3.html">Tekken 3</a></li>
+                        </ul>
+                    </details>
+                    
+                    <li class="Consoles"><a href="../konsolen/html/N64.html">N64</a></li>
+                    <details>
+                    <summary>Games</summary>
+                        <ul>
+                            <li><a href="mario64.html">Super Mario 64</a></li>
+                            <li><a href="mariokart64.html">Mario Kart 64</a></li>
+                            <li><a href="zeldaoot.html">The Legend of Zelda: Ocarina of Time</a></li>
+                        </ul>
+                    </details>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <article>
+                <h1 class="GameBoyTitle">Kontaktier uns</h1>
+                <p class="GameBoyscreenText">
+                    Du hast Fragen, Anregungen oder möchtest einfach nur Hallo sagen? 
+                    Dann zögere nicht, uns zu kontaktieren! Wir freuen uns immer über Feedback und den Austausch mit anderen Retro-Gaming-Enthusiasten.
+                </p>
+                   
+                  <form action="/submit_contact" method="post">
+                 <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="email">E-Mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="message">Nachricht:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    
+                <input type="submit" value="Absenden">
+                
+            
+            </article>
+        </main>
+
+        <footer id="footer" class="element">
+            <p class="footerinhalt">© 2025 Retro Games Showcase</p>
+            <p class="footerinhalt"><a class="footerinhalt" href="Impressum.txt">Impressum</a></p>
+            <p class="footerinhalt"><a class="footerinhalt" href="Datenschutzerklarung.txt">Datenschutzerklärung</a>
+        </footer>
+    </div>
+</body>
+</html>

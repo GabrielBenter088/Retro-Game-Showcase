@@ -197,6 +197,13 @@ footer {
     text-decoration: none;
 }
 
+.buttonTetris:hover,
+.buttonZelda:hover,
+.buttonMK64:hover {
+    background-color: #ffaa00;
+    transform: scale(1.05);
+}
+
 
 main p {
     text-align: left;
