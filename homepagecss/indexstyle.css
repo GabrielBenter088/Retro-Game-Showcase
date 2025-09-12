@@ -238,3 +238,39 @@ a:hover{
 a.footerinhalt:hover{
     text-decoration: underline;
 }
+@media (max-width: 1270px) {
+    #pictures{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+@media (max-width: 680px) {
+    #title{
+        font-size: 50px;
+    }
+}
+@media (max-width: 550px) {
+    #title{
+    font-size: 40px;
+  }
+}
+@media (max-width: 460px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 200px);
+  }
+  #title{
+    font-size: 30px;
+  }
+  nav a{
+    font-size: 20px;
+  }
+  nav {
+    max-width: 100px;
+  }
+  #item1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
