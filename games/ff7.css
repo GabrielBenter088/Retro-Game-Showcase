@@ -258,39 +258,53 @@ a:hover{
 a.footerinhalt:hover{
     text-decoration: underline;
 }
-@media (max-width: 1200px) {
-  .container {
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 200px);
+@media (max-width: 900px) {
+
+  #title{
+    font-size: 70px;
   }
 
-  .element {
-    background-color: blue;
-    color: white;
-  }
-
-  #item1 {
-    grid-column: 1 / span 2;
-    grid-row: 1; /* ist dasselbe wie grid-row: 1 / span 1; */
-  }
 }
 
-@media (max-width: 440px) {
-  .container {
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 200px);
-  }
 
-  .element {
-    background-color: green;
-    color: white;
-  }
+@media (max-width: 680px) {
+    #title{
+        font-size: 60px;
+    }
 
-  #item1 {
-    grid-column: 1;
-    grid-row: 1;
-  }
+        #container{
+        grid-template-columns: auto;
+        grid-template-rows: 150px auto auto 150px;
+        grid-template-areas:    "header"
+                                "nav"
+                                "main"
+                                "footer";
+    }
+    header{
+        grid-area: header;
+    }
+    #Logo{
+        margin-left: 20px !important;
+    }
+    #title{
+        font-size: 45px;
+    }
+    nav {
+        grid-area: nav;
+    }
+    #nav li{
+        font-size: 35px;
+
+    }
+    #nav summary{
+        font-size: 30px;
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
 }
+
 
