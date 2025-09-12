@@ -35,6 +35,14 @@ header {
     margin-left: 50px;
     margin-bottom: 0;
 }
+#title {
+    display: inline-block;
+    text-transform: uppercase; 
+    font-size: 100px;
+    margin: 0px auto;
+    color: #ffcc00;
+    font-family: "Tiny5";
+}
 /* Navigation */
 nav {
     grid-area: nav;
